@@ -1,4 +1,4 @@
-package com.example.Assignment1;
+package com.example.Assignment1.Service;
 
 import com.example.Assignment1.data.models.Employee;
 import com.example.Assignment1.data.payload.EmployeeRequest;

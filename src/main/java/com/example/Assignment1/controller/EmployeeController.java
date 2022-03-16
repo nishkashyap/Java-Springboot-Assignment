@@ -1,6 +1,6 @@
 package com.example.Assignment1.controller;
 
-import com.example.Assignment1.EmployeeService;
+import com.example.Assignment1.Service.EmployeeService;
 import com.example.Assignment1.data.models.Employee;
 import com.example.Assignment1.data.payload.EmployeeRequest;
 import org.springframework.beans.factory.annotation.Autowired;
