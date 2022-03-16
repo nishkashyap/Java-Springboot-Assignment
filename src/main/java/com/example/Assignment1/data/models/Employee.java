@@ -8,7 +8,7 @@ public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long empId;
+    private int empId;
     private String empName;
     @Enumerated(EnumType.STRING)
     private EmpBand empBand;
@@ -23,7 +23,7 @@ public class Employee {
         return empId;
     }
 
-    public void setEmpId(long empId) {
+    public void setEmpId(int empId) {
         this.empId = empId;
     }
 
