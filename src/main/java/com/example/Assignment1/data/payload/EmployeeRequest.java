@@ -14,8 +14,7 @@ public class EmployeeRequest {
     private String empName;
     @NotBlank
     @NotNull
-    @Enumerated(EnumType.STRING)
-    private EmpBand empBand;
+    private String empBand;
     @NotBlank
     @NotNull
     private String designation;
@@ -34,11 +33,11 @@ public class EmployeeRequest {
         this.empName = empName;
     }
 
-    public EmpBand getEmpBand() {
+    public String getEmpBand() {
         return empBand;
     }
 
-    public void setEmpBand(EmpBand empBand) {
+    public void setEmpBand(String empBand) {
         this.empBand = empBand;
     }
 

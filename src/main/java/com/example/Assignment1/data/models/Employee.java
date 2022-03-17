@@ -10,8 +10,7 @@ public class Employee {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int empId;
     private String empName;
-    @Enumerated(EnumType.STRING)
-    private EmpBand empBand;
+    private String empBand;
     private String designation;
     private String email;
     private String phNo;
@@ -35,11 +34,11 @@ public class Employee {
         this.empName = empName;
     }
 
-    public EmpBand getEmpBand() {
+    public String getEmpBand() {
         return empBand;
     }
 
-    public void setEmpBand(EmpBand empBand) {
+    public void setEmpBand(String empBand) {
         this.empBand = empBand;
     }
 
